@@ -17,7 +17,9 @@ het
 	                   
 	                  
 )";
-    
+
+// Classes
+
 // Constants
 const string nl = "\n";
 const string sl = "-------------------------";
@@ -43,21 +45,18 @@ void printStr(string text = "") {
 	cout << text.append(nl);
 }
 
-// Run multiple lines
-void runPiznCode(string codeInitGot) {
-}
+// Code runner utilities
+double doing = 0;
+double curLine = 1;
 
-// Storify
-auto typeStorify(string type,string content) {
-	return tuple<string> {"stochi"};
+// Run the code
+void runPiznCode(string codeInitGot) {
+	
 }
 
 // int main
 int main() {
 	printStr("/\n| %™©® Pizn Interpreter ®©™%\n\\\n\n...\n\n");
     runPiznCode(codeToRun);
-    
-    printStr(get<0>(typeStorify("","")));
-    
 	return 0;
 }
